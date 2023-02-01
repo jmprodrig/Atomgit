@@ -9,7 +9,7 @@
     </div>
 
     <div class="top-dropdown-header">
-      <h2><?php echo __('Language') ?></h2>
+      <h2><?php echo __('Language') ?> Texto </h2>
     </div>
 
     <div class="top-dropdown-body">
