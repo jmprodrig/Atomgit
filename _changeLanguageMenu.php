@@ -27,7 +27,7 @@ foreach ($langCodes as $value) {
 }
 
 foreach ($orderedLangCodes as $value): ?>
-  <li<?php if ($sf_user->getCulture() == $value): ?> class="active"<?php endif; ?>>
+  <li<?php if ($sf_user->getCulture() == $value): ?> class="active"<?php endif; ?> style="text-transform: capitalize;">
     <?php echo link_to(format_language($value, $value), array('sf_culture' => $value) + $sf_data->getRaw('sf_request')->getParameterHolder()->getAll()) ?>
   </li>
 <?php endforeach; ?>
